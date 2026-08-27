@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --font-inter: "Inter", sans-serif;
+  --font-heading: "DM Sans", sans-serif;
+
+  --color-brand-navy: #111111;
+  --color-brand-blue: #111111;
+  --color-brand-blue-hover: #333333;
+  --color-brand-light-blue: #F9F9F9;
+  --color-brand-bg: #FFFFFF;
+  --color-brand-text: #111111;
+  --color-brand-text-secondary: #666666;
+  --color-brand-border: #E5E5E5;
+}
+
+@layer base {
+  body {
+    @apply text-brand-text bg-brand-bg font-inter antialiased;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading text-brand-navy;
+  }
+}

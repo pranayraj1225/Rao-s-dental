@@ -1,0 +1,6 @@
+{
+  "name": "Rao's Dental Care",
+  "description": "Dental clinic website for Rao's Dental Care in Quthbullapur, Hyderabad.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
